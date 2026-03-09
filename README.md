@@ -73,7 +73,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-**Step 3: ติดตั้ง Dependencies)**
+**Step 3: ติดตั้ง Dependencies**
 ```bash
 pip install -r web/requirements.txt
 ```
