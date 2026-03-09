@@ -10,7 +10,9 @@ from flask import Flask, render_template, request, jsonify, send_file
 from pythainlp.tokenize import word_tokenize
 from pythainlp.corpus.common import thai_stopwords
 from scipy.sparse import hstack
+import __main__
 
+__main__.smart_tokenizer = smart_tokenizer
 PORT = int(os.environ.get("PORT", 5000))
 
 app = Flask(__name__, template_folder="template", static_folder="static")
