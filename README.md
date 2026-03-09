@@ -1,10 +1,9 @@
-<img width="1905" height="905" alt="image" src="https://github.com/user-attachments/assets/dae5a5d3-d688-4bd3-9dd5-27a7a614569a" /><img width="1905" height="905" alt="image" src="https://github.com/user-attachments/assets/dae5a5d3-d688-4bd3-9dd5-27a7a614569a" /># KMITL Artificial Intelligence: Thai Sentiment Analysis
+# KMITL Artificial Intelligence: Thai Sentiment Analysis
 
 โปรเจกต์นี้คือระบบวิเคราะห์อารมณ์ข้อความภาษาไทย (Thai Sentiment Analysis) ที่พัฒนาขึ้นโดยใช้เทคนิค Machine Learning แบบ **Soft Voting Ensemble** (LightGBM + Logistic Regression + LinearSVC) ผสานกับ **Hybrid TF-IDF** และ **Smart Tokenization (Negation Binding)** เพื่อให้ความแม่นยำสูงสุด
 
 🚀 **ทดลองใช้งานจริง (Live Demo):** [https://kmitl-artificial-intelligence-thai.onrender.com/](https://kmitl-artificial-intelligence-thai.onrender.com/)
 
-<img width="1905" height="905" alt="image" src="https://github.com/user-attachments/assets/d34f9d3e-2922-485b-8b1e-1c60d365fc85" />
 <img width="1905" height="905" alt="image" src="https://github.com/user-attachments/assets/d34f9d3e-2922-485b-8b1e-1c60d365fc85" />
 
 * สามารถอัปโหลดได้ทั้ง Text และ JSON
