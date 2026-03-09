@@ -2,6 +2,7 @@ import os
 import re
 import json
 import io
+from tokenizer import smart_tokenizer
 import emoji
 import joblib
 import numpy as np
@@ -17,22 +18,6 @@ app = Flask(__name__, template_folder="template", static_folder="static")
 stopwords = set(thai_stopwords())
 stopwords.discard('ไม่')
 stopwords.discard('ดี')
-
-def smart_tokenizer(text):
-    tokens = word_tokenize(text, engine="newmm")
-    result = []
-    skip_next = False
-    for i in range(len(tokens)):
-        if skip_next:
-            skip_next = False
-            continue
-        if tokens[i] == 'ไม่' and i + 1 < len(tokens) and tokens[i+1].strip() != '':
-            result.append('ไม่_' + tokens[i+1])
-            skip_next = True
-        else:
-            if tokens[i] not in stopwords and tokens[i].strip() != '':
-                result.append(tokens[i])
-    return result
 
 def clean_text_advanced(text):
     text = str(text)
