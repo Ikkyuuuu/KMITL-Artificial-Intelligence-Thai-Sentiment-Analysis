@@ -10,6 +10,8 @@ from pythainlp.tokenize import word_tokenize
 from pythainlp.corpus.common import thai_stopwords
 from scipy.sparse import hstack
 
+PORT = int(os.environ.get("PORT", 5000))
+
 app = Flask(__name__, template_folder="template", static_folder="static")
 
 stopwords = set(thai_stopwords())
@@ -100,5 +102,5 @@ def upload_json():
 
 if __name__ == "__main__":
     print("--- Thai Sentiment Web App is starting ---")
-    print("Local URL: http://127.0.0.1:5000")
-    app.run(debug=True, port=5000)
+    print(f"Running on port {PORT}")
+    app.run(host="0.0.0.0", port=PORT)
