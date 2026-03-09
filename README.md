@@ -1,4 +1,4 @@
-# 🇹🇭 KMITL Artificial Intelligence: Thai Sentiment Analysis
+# KMITL Artificial Intelligence: Thai Sentiment Analysis
 
 โปรเจกต์นี้คือระบบวิเคราะห์อารมณ์ข้อความภาษาไทย (Thai Sentiment Analysis) ที่พัฒนาขึ้นโดยใช้เทคนิค Machine Learning แบบ **Soft Voting Ensemble** (LightGBM + Logistic Regression + LinearSVC) ผสานกับ **Hybrid TF-IDF** และ **Smart Tokenization (Negation Binding)** เพื่อให้ความแม่นยำสูงสุด
 
@@ -54,7 +54,7 @@
 
 **Step 1: โคลน Repository**
 ```bash
-git clone [https://github.com/Ikkyuuuu/KMITL-Artificial-Intelligence-Thai-Sentiment-Analysis.git](https://github.com/Ikkyuuuu/KMITL-Artificial-Intelligence-Thai-Sentiment-Analysis.git)
+git clone https://github.com/Ikkyuuuu/KMITL-Artificial-Intelligence-Thai-Sentiment-Analysis.git
 cd KMITL-Artificial-Intelligence-Thai-Sentiment-Analysis-main
 ```
 
