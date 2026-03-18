@@ -4,7 +4,7 @@
 
 🚀 **ทดลองใช้งานจริง (Live Demo):** [https://kmitl-artificial-intelligence-thai.onrender.com/](https://kmitl-artificial-intelligence-thai.onrender.com/)
 
-<img width="1905" height="905" alt="image" src="https://github.com/user-attachments/assets/d34f9d3e-2922-485b-8b1e-1c60d365fc85" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/d34f9d3e-2922-485b-8b1e-1c60d365fc85" />
 
 * สามารถอัปโหลดได้ทั้ง Text และ JSON
 
@@ -87,3 +87,28 @@ python app.py
 **Step 5: ใช้งานระบบ**
 * เปิด Web Browser แล้วเข้าไปที่: http://127.0.0.1:5000 (หรือพอร์ตที่ระบุไว้ใน app.py)
 * คุณสามารถพิมพ์ข้อความภาษาไทยเพื่อทดสอบการทำนายอารมณ์ได้ทันที
+
+---
+
+## 🏆 สรุปผล (Competition Results)
+**Rank:** 🥈 2nd Place (อันดับที่ 2 ของเซกชัน)
+**Score:** 49 / 50 
+
+### 📝 Instructor Feedback:
+* **Performance:** ได้คะแนน Overall Accuracy เป็นอันดับ 2 ของคลาส
+* **Innovation:** มีความคิดสร้างสรรค์ดีมากในการเลือกใช้ **Ensemble Model** (การรวมจุดแข็งของหลาย Model เข้าด้วยกัน)
+* **Result:** ถึงแม้การทำ Ensemble ไม่ได้เพิ่มความแม่นยำอย่างมีนัยสำคัญ แต่ผลการทดลองบน Test Set ออกมาดี
+
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/cee123a8-e849-4b74-b5b3-b6a19c8bfcc2" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/1962b01d-0a5e-4693-bc86-1683ae00b643" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/5e00e0e9-bfd9-43eb-b4e2-de1b39330987" />
+
+
+
+
+
+
+
+
+
+
